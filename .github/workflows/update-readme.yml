@@ -1,0 +1,32 @@
+name: Update README with GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs every day at midnight
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README with GitHub Stats
+        run: |
+          echo "## 📈 GitHub Analytics" > README.md
+          echo "" >> README.md
+          echo '<div align="center">' >> README.md
+          echo '  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=ukcharlies&show_icons=true&theme=github_dark&hide_border=true&count_private=true"/>' >> README.md
+          echo '  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ukcharlies&layout=compact&theme=github_dark&hide_border=true"/>' >> README.md
+          echo '</div>' >> README.md
+
+      - name: Commit changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add README.md
+          git commit -m "Update README with latest GitHub stats"
+          git push
