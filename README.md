@@ -36,7 +36,7 @@
  ### AUI Cooperatives
  <img src="https://img.shields.io/badge/Status-In_Development-blue?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Enterprise-orange?style=flat-square"/>
  
- A comprehensive platform for Al Akhawayn University's cooperative management system.
+ A comprehensive platform for Augustine University's cooperative management system.
  - **Key Features**: Member management, savings tracking, loan processing
  - **Tech Stack**: React, Node.js, PostgreSQL, Docker
  - **Status**: Active development phase
