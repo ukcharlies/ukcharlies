@@ -55,7 +55,7 @@
  |---------|-------------|-------|---------|
  | **Betswitch Converter** | Advanced betting odds conversion system | React, Node.js, REST APIs | Planning |
  | **Ash Store** | Modern e-commerce platform | MERN Stack, PostgreSQL | Design Phase |
- | **NMRC Appraisal system** | Modern Management platform | PERN Stack, PostgreSQL | Development Phase |
+ | **NMRC Appraisal system** | Modern Management platform | PERN Stack, PostgreSQL | deployed Phase |
  
  ## 📈 GitHub Analytics
  
