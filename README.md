@@ -41,7 +41,7 @@
  | **6ix Globe** | Interactive 3D visualization platform for exploring Nigerian geographical data with real-time traffic information | Next.js, TypeScript, MapLibre GL, React Globe.gl | Active | [6ix-globe](https://github.com/ukcharlies/6ix-globe) |
  | **6ix Premier Hotel Manager** | Full-stack hotel management system with booking and reservation capabilities | JavaScript, React, Node.js | Active | [Frontend](https://github.com/ukcharlies/6ix-premier-hotel-manager-fe) [Backend](https://github.com/ukcharlies/6ix-premier-hotel-manager-be) |
  | **6ix News** | Modern news aggregation platform | TypeScript (98.5%) | Deployed | [6ixnews](https://github.com/ukcharlies/6ixnews) |
- | **NMRC Appraisal System** | Enterprise management platform for appraisal processes | PERN Stack, JavaScript | Deployed | [appraisalSystem](https://github.com/ukcharlies/appraisalSystem) [appraisalLogic](https://github.com/ukcharlies/appraisalLogic) |
+ | **Appraisal System** | Enterprise management platform for appraisal processes | PERN Stack, JavaScript | Deployed | [appraisalSystem](https://github.com/ukcharlies/appraisalSystem) [appraisalLogic](https://github.com/ukcharlies/appraisalLogic) |
  | **Onyii Trims** | E-commerce platform for fabric and trimming materials | JavaScript, React | In Progress | [onyiiTrims-01-frontend](https://github.com/ukcharlies/onyiiTrims-01-frontend) [02-backend](https://github.com/ukcharlies/02-backend) |
  | **6ix Wallet** | Digital wallet and financial management application | TypeScript (85%), JavaScript (15%) | Development | [6ixWallet](https://github.com/ukcharlies/6ixWallet) |
  | **VoxEcho** | Real-time incident reporting platform | TypeScript | Collaboration | [VoxEcho](https://github.com/thedevmatrix/VoxEcho) |
@@ -98,7 +98,7 @@
  - Phase 2 (Active): Staff management and financial reporting
  - Phase 3 (Planned): Mobile application for staff and advanced analytics
  
- ### NMRC Appraisal System
+ ### Appraisal System
  <img src="https://img.shields.io/badge/Status-Deployed-success?style=flat-square"/> <img src="https://img.shields.io/badge/Type-Enterprise-orange?style=flat-square"/> <img src="https://img.shields.io/badge/Deployment-PM2/Internal-2B037A?style=flat-square"/>
  
  Enterprise-grade employee performance management and appraisal system developed for the Nigerian Mortgage Refinance Company.
